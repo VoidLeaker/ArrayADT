@@ -71,7 +71,7 @@ public class ArrayADT {
         }
         else
         {
-            data[0] = entry;
+            data[numberOfEntries] = entry;
             numberOfEntries++;
             last++;
             return("The item has been added");
